@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-blur {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    padding: 2rem 0;
+    background-color: #f5fcff;
+    min-height: calc(100vh - 217px);
+}
+
+
+
+.border-thick {
+    border-width: 3px;
+
+}
+
+.custom-form-add-properties {
+    width: 20%;
+}
+
+header {
+
+    nav {
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 2px;
+            border-radius: 4px;
+            transition: .3s;
+
+            &:hover {
+                background-color: #008dce;
+            }
+
+            &.active {
+                background-color: #ffffff;
+                color: #29B6F6;
+                text-shadow: 1px 1px 5px var(--color-dark);
+            }
+        }
+    }
+}
+
+.jumbotron-bg-about {
+    background-image: url(./assets/abouus.jpeg);
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-bg-search {
+    background-image: url(./assets/search.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-bg-call {
+    background-image: url(./assets/call.jpeg);
+    background-size: cover;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-bg-home {
+    background-image: url(./assets/home.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-bg-Dettails {
+    background-image: url(./assets/Dettails.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
